@@ -1,0 +1,17 @@
+--- v1/Makefile	Mon Mar  8 16:57:55 2004
++++ v2/Makefile	Mon Mar  8 16:58:35 2004
+@@ -18,10 +18,10 @@
+ INSTALL=install prosilla $(DSTDIR)
+ 
+ ### comment these lines out if you don't want the gtk+ interface
+-CFLAGS+= `gtk-config --cflags` -DWITH_GTK
+-LDFLAGS+= `gtk-config --libs` -lpthread
+-OBJS+= gtk_iface.o
+-INSTALL+=;ln -sf prosilla $(DSTDIR)/gprosilla
++#CFLAGS+= `gtk-config --cflags` -DWITH_GTK
++#LDFLAGS+= `gtk-config --libs` -lpthread
++#OBJS+= gtk_iface.o
++#INSTALL+=;ln -sf prosilla $(DSTDIR)/gprosilla
+ 
+ ################################################################################
+ 
