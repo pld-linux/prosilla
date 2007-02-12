@@ -1,6 +1,6 @@
 
 Summary:	ProSilla - a program which accelerates file transfers over SSH
-Summary(pl):	ProSilla - program przyspieszaj±cy pobieranie du¿ych plików przez SSH
+Summary(pl.UTF-8):   ProSilla - program przyspieszajÄ…cy pobieranie duÅ¼ych plikÃ³w przez SSH
 Name:		prosilla
 Version:	1.2
 Release:	2
@@ -23,12 +23,12 @@ The only difference is that proSilla uses SSH instead of HTTP/FTP for
 download. Of course you must have a shell account on the remote server
 to use this program.
 
-%description -l pl
-ProSilla to program przyspieszaj±cy pobieranie du¿ych plików poprzez
-otwieranie wielu po³±czeñ na raz (tak jak inne "przyspieszacze").
-Jedyn± ró¿nic± jest to, ¿e proSilla u¿ywa SSH zamiast HTTP/FTP do
-¶ci±gania. Oczywi¶cie w zwi±zku z tym trzeba mieæ konto shellowe na
-docelowym serwerze ¿eby skorzystaæ z tego programu.
+%description -l pl.UTF-8
+ProSilla to program przyspieszajÄ…cy pobieranie duÅ¼ych plikÃ³w poprzez
+otwieranie wielu poÅ‚Ä…czeÅ„ na raz (tak jak inne "przyspieszacze").
+JedynÄ… rÃ³Å¼nicÄ… jest to, Å¼e proSilla uÅ¼ywa SSH zamiast HTTP/FTP do
+Å›ciÄ…gania. OczywiÅ›cie w zwiÄ…zku z tym trzeba mieÄ‡ konto shellowe na
+docelowym serwerze Å¼eby skorzystaÄ‡ z tego programu.
 
 %prep
 %setup -q -n %{name}
