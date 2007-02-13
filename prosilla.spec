@@ -1,6 +1,6 @@
 
 Summary:	ProSilla - a program which accelerates file transfers over SSH
-Summary(pl.UTF-8):   ProSilla - program przyspieszający pobieranie dużych plików przez SSH
+Summary(pl.UTF-8):	ProSilla - program przyspieszający pobieranie dużych plików przez SSH
 Name:		prosilla
 Version:	1.2
 Release:	2
