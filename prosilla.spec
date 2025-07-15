@@ -32,7 +32,7 @@ docelowym serwerze żeby skorzystać z tego programu.
 
 %prep
 %setup -q -n %{name}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} \
